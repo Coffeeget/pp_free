@@ -1,0 +1,26 @@
+@media screen and (max-height:750px) {
+    .profile {
+        top:-5%;
+    }
+
+    .project_title {
+        left: 66%;
+        transform: translateX(0%);
+        top: 15%;
+    }
+
+    .p_c {
+        top: 30%;
+        height: 500px;
+    }
+    
+    .p_c>.projects>ul>li>div>.right p {
+        height: 100px;
+        font-size: 1em;
+    }
+
+    .p_button>div{
+        top: -100px;
+    }
+    
+}

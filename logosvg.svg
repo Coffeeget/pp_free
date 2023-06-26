@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 410 410" style="enable-background:new 0 0 410 410;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	
+		.st1{clip-path:url(#SVGID_4_);fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<g>
+		<rect x="5" y="5" class="st0" width="400" height="400"/>
+	</g>
+	<g>
+		<g>
+			<defs>
+				<circle id="SVGID_1_" cx="205" cy="205" r="200"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+			</clipPath>
+		</g>
+		<g>
+			<defs>
+				<circle id="SVGID_3_" cx="205" cy="205" r="200"/>
+			</defs>
+			<clipPath id="SVGID_4_">
+				<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+			</clipPath>
+			<circle class="st1" cx="205" cy="205" r="200"/>
+			
+				<use xlink:href="#SVGID_3_"  style="overflow:visible;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;"/>
+		</g>
+		<g>
+			<defs>
+				<circle id="SVGID_5_" cx="205" cy="205" r="200"/>
+			</defs>
+			<clipPath id="SVGID_6_">
+				<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+			</clipPath>
+		</g>
+	</g>
+	<path class="st0" d="M205,205"/>
+	<line class="st0" x1="166.07" y1="80.61" x2="95.12" y2="317.25"/>
+	<line class="st0" x1="95.12" y1="317.25" x2="316.66" y2="317.25"/>
+	<line class="st0" x1="166.07" y1="80.61" x2="205.89" y2="147.68"/>
+	<line class="st0" x1="245.71" y1="80.61" x2="288.47" y2="223.21"/>
+	<line class="st0" x1="245.71" y1="80.61" x2="205.89" y2="147.68"/>
+	<line class="st0" x1="195.23" y1="187.91" x2="163.33" y2="290.02"/>
+	<line class="st0" x1="226.77" y1="198.5" x2="216.16" y2="232.47"/>
+	<line class="st0" x1="195.23" y1="187.91" x2="225.8" y2="197.07"/>
+	<line class="st0" x1="183.15" y1="227.88" x2="213.72" y2="237.05"/>
+	<line class="st0" x1="215.4" y1="240.06" x2="231.35" y2="289.65"/>
+</g>
+</svg>

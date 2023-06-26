@@ -1,0 +1,809 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-family: "맑은 고딕", sans-serif;
+
+}
+
+body,
+html {
+    width: 100%;
+    overflow-x: hidden;
+    letter-spacing: -1px;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+span {
+    display: block;
+}
+
+img {
+    display: block;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.cf {
+    clear: both;
+    display: block;
+    content: '';
+}
+
+
+/* //////////////////////////////////// */
+
+#header {
+    width: 100%;
+    height: 950px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#header .header {
+    width: 1200px;
+    height: 950px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#header .header #top_nav {
+    width: 1000px;
+    height: 60px;
+    z-index: 1;
+    margin: 0 auto;
+}
+
+#header .header #top_nav .top_nav {
+    width: 1000px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+#header .header #top_nav .top_nav ul {
+    width: 1000px;
+    height: 60px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#header .header #top_nav .top_nav ul li {
+    width: 19%;
+    height: 60px;
+    float: left;
+}
+
+#header .header #top_nav .top_nav ul li img {
+    margin-top: 5px;
+}
+
+#header .header #top_nav .top_nav ul li.on a {
+    font-weight: bold;
+}
+
+#header .header #top_nav .top_nav ul li a {
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px;
+}
+
+#header .header #top_nav .top_nav ul li a:hover {
+    font-weight: bold;
+}
+
+#header .header .slogan {
+    position: absolute;
+    width: 50%;
+    height: 200px;
+    top: 65%;
+    left: 20%;
+    transform: translate(0, -50%);
+    z-index: 100;
+}
+
+#header .header .slogan p {
+    font-size: 3rem;
+    float: left;
+}
+
+.line {
+    width: 200%;
+    height: 48%;
+    position: relative;
+    background-color: black;
+    top: 45%;
+    left: -50%;
+}
+
+#header .header .name {
+    width: 410px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(0, -50%);
+    z-index: 1;
+    background: url(../images/1_2.png) no-repeat center center / 500px auto;
+    border: 5px inset gray;
+}
+
+#header .header .name div {
+    width: 800px;
+    margin-top: 600px;
+    transform: rotate(270deg);
+    position: absolute;
+    top: -111%;
+    left: 20%;
+    z-index: 100;
+}
+
+#header .header .name div p:nth-child(1){
+    animation: name1 5s infinite;
+}
+
+#header .header .name div p:nth-child(2){
+    animation: name2 5s infinite;
+}
+
+@keyframes name1 {
+    0% {
+        opacity: 1;
+        color: white;
+    }
+
+    25% {
+        opacity: 1;
+        color: #333333;
+    }
+
+    50% {
+        opacity: 0.1;
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+        color: white;
+    }
+}
+
+@keyframes name2 {
+    0% {
+        opacity: 1;
+        color: #333333;
+    }
+
+    25% {
+        opacity: 1;
+        color: white;
+    }
+
+    50% {
+        opacity: 0.1;
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+        color: #333333;
+    }
+}
+#header .header .name p {
+    font-size: 100px;
+    float: left;
+}
+
+#header .header .name span {
+    float: left;
+}
+
+/* 탑버튼 */
+#top_btn {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    display: none;
+    z-index: 99999999;
+}
+
+#top_btn a {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #999999;
+}
+
+#top_btn a i {
+    padding-top: 12px;
+    display: block;
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+}
+
+
+
+/* 네비 */
+
+
+#nav {
+    width: 100px;
+    height: 300px;
+    margin: 0 auto;
+    position: fixed;
+    top: 50%;
+    left: 5%;
+    transform: translate(0, -30%);
+    z-index: 9999999999;
+}
+
+#nav ul {
+    width: 100px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+#nav ul li {
+    width: 100px;
+    height: 60px;
+    overflow: hidden;
+}
+
+#nav ul li.on a {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+}
+
+#nav ul li a {
+    width: 100px;
+    line-height: 60px;
+    font-size: 1.2em;
+    transition: all 0.4s;
+    color: #999999;
+}
+
+#nav ul li a:hover {
+    font-weight: bold;
+}
+
+/* 프로필 시작 */
+#profile {
+    width: 100%;
+    height: 950px;
+    margin: 0 auto;
+    background-color: rgb(248, 248, 235);
+    position: relative;
+}
+
+.profile_top {
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+
+.profile_top h2 {
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    line-height: 100px;
+    text-decoration: underline;
+    font-size: 3em;
+    text-align: center;
+}
+
+.profile {
+    width: 1400px;
+    height: 740px;
+    margin: 0 auto;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.profile_cont {
+    position: relative;
+    width: 80%;
+    height: 740px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 35% 35% 30%;
+    grid-template-rows: 55% 30%;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.profile_cont figure {
+    transition: all 1s;
+}
+
+.profile_cont figure img {
+    transition: all 1s;
+    width: 100%;
+}
+
+.profile_cont figure img:hover {
+    opacity: 0;
+}
+
+.profile_cont figure:hover {
+    background: url(../images/5.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.profile_cont .info {
+    width: 95%;
+    margin-left: 30px;
+}
+
+.profile_cont .info div {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+}
+
+.profile_cont .info div h2 {
+    font-size: 1.1em;
+    height: 30px;
+    padding-left: 30px;
+    line-height: 30px;
+}
+
+.profile_cont .info div h3 {
+    margin-bottom: 10px;
+    padding-left: 30px;
+}
+
+.profile_cont .info div p {
+    font-size: 14px;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 30px;
+
+}
+
+.profile_cont .info div p:last-child {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.info_text {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px 20px;
+}
+
+.info_text p {
+    border-bottom: 1px solid #777777;
+    height: 30px;
+    line-height: 30px;
+}
+
+.skill {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 630px;
+    position: relative;
+}
+
+.skill h3 {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 20px;
+    font-size: 1.3em;
+    position: absolute;
+    top: -23px;
+    left: 10px;
+    background-color: rgb(248, 248, 235);
+
+}
+
+.skill>ul {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.skill>ul>li {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    margin: 30px auto;
+}
+
+.skill>ul>li span {
+    float: left;
+    font-weight: bold;
+}
+
+.skill>ul>li>div {
+    float: right;
+}
+
+.progress {
+    width: 100%;
+    height: 20px;
+    position: relative;
+    background: #cccccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.bar {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 100%;
+    border-radius: 0 10px 10px 0;
+    background-color: #6d7f9c;
+}
+
+
+
+/* contents 콘텐츠 시작 */
+
+
+#contents {
+    width: 100%;
+    height: 950px;
+    margin: 0 auto;
+    background-color: rgb(248, 248, 235);
+    overflow: hidden;
+}
+
+#project {
+    width: 1400px;
+    height: 950px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.project {
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.project>h3 {
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    line-height: 100px;
+    text-decoration: underline;
+    font-size: 3em;
+    text-align: center;
+}
+
+.project_title {
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 25%;
+    background-color: #efefef;
+}
+
+.project_title ul {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.project_title ul li {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.project_title ul li a {
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 50px;
+}
+
+.project_title ul li a.active {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+
+.project_title ul li a:hover {
+    background-color: gray;
+    color: white;
+}
+
+.p_c {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    position: absolute;
+    top: 40%;
+    box-sizing: border-box;
+}
+
+.p_c .projects {
+    float: left;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.p_c>.projects>ul {
+    height: 100%;
+    width: auto;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.p_c>.projects>ul>li {
+    float: left;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.p_c>.projects>ul>li>div {
+    width: 100%;
+    height: 100%;
+}
+
+.p_c>.projects>ul>li>div>div {
+    width: 49.7%;
+    float: left;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.css_1 .left {
+    background: url(../images/css_cover.png) no-repeat center center / 100%;
+    background-color: white;
+}
+
+.jQuery_1 .left {
+    background: url(../images/jQuery_cover.png) no-repeat center center / 100%;
+    background-color: white;
+}
+
+.responsive_1 .left {
+    background: url(../images/responsive_cover.png) no-repeat center center / 100%;
+    background-color: white;
+}
+
+.left a {
+    width: 100%;
+    height: 100%;
+}
+
+.p_c>.projects>ul>li>div>.right{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.p_c>.projects>ul>li>div>.right h4 {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-indent: 20px;
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+.p_c>.projects>ul>li>div>.right p {
+    width: 90%;
+    height: 200px;
+    font-size: 1.1em;
+    margin: 50px auto;
+    word-break: keep-all;
+}
+
+
+.p_c>.projects>ul>li>div>.right span {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-indent: 20px;
+}
+
+.p_c>.projects>ul>li>div>.right ul,
+.p_c>.projects>ul>li>div>.right ol {
+    width: 80%;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+}
+
+.p_c>.projects>ul>li>div>.right ul li {
+    height: 30px;
+    float: left;
+}
+
+.p_c>.projects>ul>li>div>.right ul li a {
+    border: 1px solid black;
+    padding: 2px 10px;
+    margin: 0 5px;
+    text-align: center;
+}
+
+.p_c>.projects>ul>li>div>.right ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+.p_c>.projects>ul>li>div>.right ol li {
+    float: left;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.p_button {
+    position: relative;
+    z-index: 1000;
+    width: 100%;
+    height: 50px;
+    top: 570px;
+}
+
+.p_button>div {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    float: left;
+    top: 0;
+}
+
+.p_button .prev {
+    left: 20px;
+}
+
+.p_button .next {
+    right: -40px;
+}
+
+.p_button>div a {
+    font-weight: bold;
+}
+
+
+.css_2 .left,
+.css_3 .left,
+.jQuery_2 .left,
+.jQuery_3 .left,
+.responsive_2 .left,
+.responsive_3 .left {
+    background: url(../images/mylogo.png) no-repeat center center /50%;
+    background-color: white;
+}
+
+.css_2 .right,
+.css_3 .right,
+.jQuery_2 .right,
+.jQuery_3 .right,
+.responsive_2 .right,
+.responsive_3 .right {
+    background: url(../images/last_cover.png) no-repeat center center /50%;
+}
+
+/* contact 콘택트 시작 */
+#contact {
+    width: 100%;
+    height: 950px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: -100px;
+}
+
+.contact_tit {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.contact_tit h3 {
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    line-height: 100px;
+    text-decoration: underline;
+    font-size: 3em;
+    text-align: center;
+}
+
+.contact {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    top: 100px;
+}
+
+.contact_front {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    background: url(../images/post.png) center no-repeat;
+    background-size: 600px auto;
+}
+
+.contact_wrap {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    background: url(../images/post_back.png) center no-repeat;
+    background-size: 600px auto;
+}
+
+.contact_txt {
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+.contact_txt table {
+    margin: 0 auto;
+    width: 500px;
+    border-collapse: collapse;
+    display: block;
+}
+
+.contact_txt table tr {
+    display: block;
+    border-bottom: 1px solid #999999;
+    height: 60px;
+    line-height: 70px;
+    text-indent: 20px;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+
+.contact_txt table th {
+    width: 100px;
+    text-align: justify;
+}
+
+.contact_txt table td {
+    text-align: left;
+}

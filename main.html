@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="ko">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="images/mylogo_w.png" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="./js/jquery.min.1.7.js"></script>
+    <script src="./js/jquery.easing.1.3.min.js"></script>
+    <script src="./js/jquery.parallax-scroll.min.js"></script>
+    <script src="./js/typed.js"></script>
+    <script src="./js/jquery.flip.min.js"></script>
+    <script type="text/javascript" src="./js/modernizr.2.5.3.min.js"></script>
+    <script src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <script src="https://kit.fontawesome.com/b51af6ee40.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="header" class="mn">
+            <div class="header">
+                <div id="top_nav">
+                    <div class="top_nav">
+                        <ul>
+                            <li><a href="#main.html"><img src="./images/logosvg.svg" width="50" alt="logo"></a></li>
+                            <li class="on" id="btn01"><a href="#header">HOME</a></li>
+                            <li id="btn02"><a href="#profile">PROFILE</a></li>
+                            <li id="btn03"><a href="#contents">PROJECT</a></li>
+                            <li id="btn04"><a href="#contact">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="slogan">
+                    <p class="type"></p>
+                </div>
+                <div class="name">
+                    <div>
+                        <p>Na</p>
+                        <p>me</p>
+                    </div>
+                </div>
+                <div class="line"></div>
+            </div>
+            <nav>
+                <div id="nav">
+                    <div class="nav">
+                        <ul>
+                            <li class="on" id="btn01"><a href="#header" class="active">HOME</a></li>
+                            <li id="btn02"><a href="#profile">PROFILE</a></li>
+                            <li id="btn03"><a href="#contents">PROJECT</a></li>
+                            <li id="btn04"><a href="#contact">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div id="top_btn"><a href="#none" class="top_btn"><i class="fas fa-chevron-up"></i></a>
+            </div>
+        </div>
+        <div id="profile" class="mn">
+            <div class="profile_top">
+                <h2>Profile</h2>
+            </div>
+            <div class="profile">
+                <div class="profile_cont">
+                    <figure><img src="./images/6_2.png" alt="profile"></figure>
+                    <div class="info">
+                        <div>
+                            <h2>이름 | 成名 | name</h2>
+                            <p>1994. 10. 25 (만28세)</p>
+                        </div>
+                        <div>
+                            <p>+82 10. 0000. 0000</p>
+                            <p>eamil@gmail.com</p>
+                        </div>
+                        <div>
+                            <h3>학력</h3>
+                            <p>2013.02 ㅇㅇ고등학교 졸업</p>
+                            <p>2021.02 ㅇㅇㅇㅇ대학교 전문학사 취득</p>
+                            <p>2023.02 ㅇㅇㅇㅇ대학교 학사 취득</p>
+                        </div>
+                        <div>
+                            <h3>교육이수</h3>
+                            <p>2023.02 ~ 2023.07 [스마트웹&콘텐츠개발]</p>
+                            <p>UI/UX 디자인과 프론트엔드 개발자 양성과정</p>
+                        </div>
+                        <div>
+                            <h3>병역사항</h3>
+                            <p>2014.07 ~ 2016.04</p>
+                            <p>수도기계화보병사단 | 만기 전역(병장)</p>
+                        </div>
+                        <div>
+                            <h3>자격사항</h3>
+                            <p>2012.11 자동차운전면허 1종보통</p>
+                            <p>2023.04 웹디자인기능사</p>
+                        </div>
+                    </div>
+                    <div class="skill" id="progress_wrap">
+                        <h3>SKILL</h3>
+                        <ul>
+                            <li>
+                                <span class="progress_tit">HTML</span>
+                                <div class="progress_cont">
+                                    <span id="html_cnt">95</span>
+                                    <span>/</span>
+                                    <span>100</span>
+                                </div>
+                                <div class="progress">
+                                    <div id="html_bar" class="bar"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="progress_tit">CSS</span>
+                                <div class="progress_cont">
+                                    <span id="css_cnt">90</span>
+                                    <span>/</span>
+                                    <span>100</span>
+                                </div>
+                                <div class="progress">
+                                    <div id="css_bar" class="bar"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="progress_tit">jQuery</span>
+                                <div class="progress_cont">
+                                    <span id="jquery_cnt">80</span>
+                                    <span>/</span>
+                                    <span>100</span>
+                                </div>
+                                <div class="progress">
+                                    <div id="jQuery_bar" class="bar"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="progress_tit">figma</span>
+                                <div class="progress_cont">
+                                    <span id="figma_cnt">80</span>
+                                    <span>/</span>
+                                    <span>100</span>
+                                </div>
+                                <div class="progress">
+                                    <div id="figma_bar" class="bar"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="progress_tit">react</span>
+                                <div class="progress_cont">
+                                    <span id="react_cnt">70</span>
+                                    <span>/</span>
+                                    <span>100</span>
+                                </div>
+                                <div class="progress">
+                                    <div id="react_bar" class="bar"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="progress_tit">github</span>
+                                <div class="progress_cont">
+                                    <span id="github_cnt">70</span>
+                                    <span>/</span>
+                                    <span>100</span>
+                                </div>
+                                <div class="progress">
+                                    <div id="github_bar" class="bar"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="progress_tit">php</span>
+                                <div class="progress_cont">
+                                    <span id="php_cnt">60</span>
+                                    <span>/</span>
+                                    <span>100</span>
+                                </div>
+                                <div class="progress">
+                                    <div id="php_bar" class="bar"></div>
+                                </div>
+                                <li>
+                                    <span class="progress_tit">bootstrap</span>
+                                    <div class="progress_cont">
+                                        <span id="bootstrap_cnt">80</span>
+                                        <span>/</span>
+                                        <span>100</span>
+                                    </div>
+                                    <div class="progress">
+                                        <div id="bootstrap_bar" class="bar"></div>
+                                    </div>
+                                </li>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="info_text">
+                        <p>현재에 만족하지 않고 앞을 향해 계속 발전하고</p>
+                        <p>나아가고 있습니다. 경력은 신입이지만 </p>
+                        <p>여러 직장을 다니면서 경험한 데이터로 원활하게</p>
+                        <p>소통하고 협업하며 뒤쳐지지 않고 앞장서는</p>
+                        <p>구성원이 될 것입니다. </p>
+                        <p>회사와 함께 성장하는 구성원이 되고싶습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contents" class="mn">
+            <div id="project">
+                <div class="project">
+                    <h3>Project</h3>
+                    <div class="project_title">
+                        <ul>
+                            <li><a href="#CSS" class="active">CSS</a></li>
+                            <li><a href="#jQuery">jQuery</a></li>
+                            <li><a href="#responsive">responsive</a></li>
+                        </ul>
+                    </div>
+                    <div class="porject_contents">
+                        <div id="CSS" class="p_c">
+                            <div class="projects">
+                                <ul>
+                                    <li class="pc">
+                                        <div class="css_1">
+                                            <div class="left"><a href="https://coffeeget.github.io/Css/"
+                                                target="_blank"></a></div>
+                                            <div class="right">
+                                                <h4>1st_ Selecto-Coffee</h4>
+                                                <p><strong>HTML</strong>과 <strong>CSS</strong>만 사용했고 지도 API를 구현해보았습니다. 스스로 처음
+                                                    작업해본 사이트여서 처음에는 많이 어려웠지만 항상 수업 끝나고 홀로남아 전전긍긍하며 작업하다보니 HTML과 CSS에 대한
+                                                    이해도도 높아지고 어느정도 친밀감도 느껴지게 되었습니다. &nbsp; 이 작업물로 인해 한걸음 더 전진하는 계기가
+                                                    되었습니다.
+                                                </p>
+                                                <span>구성</span>
+                                                <ul class="cf">
+                                                    <li><a href="https://coffeeget.github.io/Css/"
+                                                            target="_blank">Main</a></li>
+                                                    <li><a href="https://coffeeget.github.io/Css/project01_sub01.html"
+                                                            target="_blank">Sub01</a>
+                                                    </li>
+                                                    <li><a href="https://coffeeget.github.io/Css/project01_sub02.html"
+                                                            target="_blank">Sub02</a>
+                                                    </li>
+                                                    <li><a href="https://coffeeget.github.io/Css/project01_sub03.html"
+                                                            target="_blank">Sub03</a>
+                                                    </li>
+                                                </ul>
+                                                <span>호환</span>
+                                                <ol>
+                                                    <li><img src="./images/chrome.png" width="40" alt="chrome"></li>
+                                                    <li><img src="./images/edge.png" width="40" alt="edge"></li>
+                                                    <li><img src="./images/firefox.png" width="40" alt="firefox"></li>
+                                                    <li><img src="./images/opera.png" width="40" alt="opera"></li>
+                                                    <li><img src="./images/w3c.png" width="40" alt="w3c"></li>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="pc">
+                                        <div class="css_2">
+                                            <div class="left"></div>
+                                            <div class="right">
+                                                <h4>2st_ 준비중입니다.</h4>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="pc">
+                                        <div class="css_3">
+                                            <div class="left"></div>
+                                            <div class="right">
+                                                <h4>3st_ 준비중입니다.</h4>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="p_button">
+                                <div class="prev">
+                                    <a href="#none"><i class="fa-solid fa-chevron-left"></i>&nbsp;이전페이지</a>
+                                </div>
+                                <div class="next">
+                                    <a href="#none">다음페이지&nbsp;<i class="fa-solid fa-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="jQuery" class="p_c">
+                            <div class="projects">
+                                <ul>
+                                    <li class="pc">
+                                        <div class="jQuery_1">
+                                            <div class="left"><a href="http://lee.dothome.co.kr/" target="_blank"></a></div>
+                                            <div class="right">
+                                                <h4>1st_ 영주시청</h4>
+                                                <p><strong>HTML,</strong> <strong>CSS,</strong> <strong>FLEX,</strong>
+                                                    <strong>jQurey</strong>를 사용했고 <strong>날씨 API</strong>를 구현하였으며, <br> <strong>PHP</strong>를 이용하여 로그인, 회원가입, 게시판을 활성화 시켰습니다. <br> 두
+                                                    번째로
+                                                    영주시청을 작업하게 된 이유는 관공서인만큼 더욱 많은 경험을 해볼 수 있다고 생각하였고 사용자의 접근성을 보다 더 개선할
+                                                    수
+                                                    있을 것 같다 생각이 들었습니다.
+                                                    제이쿼리를 처음 적용 시킨 작업물이라 머리 아프고 많이 어려웠지만 작업을 하면서 이해도도 높이고 보람찬 작업물이었습니다.
+                                                </p>
+                                                <span>구성</span>
+                                                <ul>
+                                                    <li><a href="http://lee.dothome.co.kr/" target="_blank">Main</a>
+                                                    </li>
+                                                    <li><a href="http://lee.dothome.co.kr/sub01.php "
+                                                            target="_blank">Sub01</a>
+                                                    </li>
+                                                    <li><a href="http://lee.dothome.co.kr/sub02.php "
+                                                            target="_blank">Sub02</a>
+                                                    </li>
+                                                    <li><a href="http://lee.dothome.co.kr/login_form.php "
+                                                            target="_blank">Login</a>
+                                                    </li>
+                                                    <li><a href="http://lee.dothome.co.kr/sub03.php "
+                                                            target="_blank">게시판</a>
+                                                    </li>
+                                                    <li><a href="http://lee.dothome.co.kr/member_form.php "
+                                                            target="_blank">회원가입</a>
+                                                    </li>
+                                                </ul>
+                                                <span>호환</span>
+                                                <ol>
+                                                    <li><img src="./images/chrome.png" width="40" alt="chrome"></li>
+                                                    <li><img src="./images/edge.png" width="40" alt="edge"></li>
+                                                    <li><img src="./images/firefox.png" width="40" alt="firefox"></li>
+                                                    <li><img src="./images/opera.png" width="40" alt="opera"></li>
+                                                    <li><img src="./images/w3c.png" width="40" alt="w3c"></li>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="pc">
+                                        <div class="jQuery_2">
+                                            <div class="left"></div>
+                                            <div class="right">
+                                                <h4>2st_ 준비중입니다.</h4>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="pc">
+                                        <div class="jQuery_3">
+                                            <div class="left"></div>
+                                            <div class="right">
+                                                <h4>3st_ 준비중입니다.</h4>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="p_button">
+                                <div class="prev">
+                                    <a href="#none"><i class="fa-solid fa-chevron-left"></i>&nbsp;이전페이지</a>
+                                </div>
+                                <div class="next">
+                                    <a href="#none">다음페이지&nbsp;<i class="fa-solid fa-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="responsive" class="p_c">
+                            <div class="projects">
+                                <ul>
+                                    <li class="pc">
+                                        <div class="responsive_1">
+                                            <div class="left"><a href="javascript:void(window.open('https://coffeeget.github.io/project_responsive/', '_blank'))"
+                                                tabindex="1"></a></div>
+                                            <div class="right">
+                                                <h4>1st_ 서울시립미술관</h4>
+                                                <p><strong>HTML,</strong> <strong>CSS,</strong> <strong>Grid,</strong>
+                                                    <strong>jQuery</strong>를 사용했고 <br> <strong>미디어쿼리</strong>를 이용하여 반응형으로
+                                                    제작하였습니다. <br> 세 번째 서울시립미술관입니다. 무채색으로 이루어져 깔끔한 분위기와 정반대로 높낮이가 일정하지 않아
+                                                    레이아웃이
+                                                    난잡해 보이는 것을
+                                                    바로잡아보고자 작업을 시작하게 되었습니다.
+                                                    처음 적용하는 반응형사이트라 이리저리 왔다갔다 하면서 골치아프기도 했지만 작업을 마친 후 검토하면서 뿌듯함을 느꼈습니다.
+                                                </p>
+                                                <span>구성</span>
+                                                <ul>
+                                                    <li><a href="javascript:void(window.open('https://coffeeget.github.io/project_responsive/', '_blank'))"
+                                                            tabindex="1">Web</a></li>
+                                                    <li><a href="javascript:void(window.open('https://coffeeget.github.io/project_responsive/', '_blank', 'width=768, height=846', 'scrollbars=yes', 'resizable=no', 'toolbar=no'))"
+                                                            tabindex="1">Tablet</a></li>
+                                                    <li><a href="javascript:void(window.open('https://coffeeget.github.io/project_responsive/', '_blank', 'width=320, height=568', 'scrollbars=yes', 'resizable=no', 'toolbar=no'))"
+                                                            tabindex="1">Phone</a></li>
+                                                </ul>
+                                                <span>호환</span>
+                                                <ol>
+                                                    <li><img src="./images/chrome.png" width="40" alt="chrome"></li>
+                                                    <li><img src="./images/edge.png" width="40" alt="edge"></li>
+                                                    <li><img src="./images/firefox.png" width="40" alt="firefox"></li>
+                                                    <li><img src="./images/opera.png" width="40" alt="opera"></li>
+                                                    <li><img src="./images/w3c.png" width="40" alt="w3c"></li>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="pc">
+                                        <div class="responsive_2">
+                                            <div class="left"></div>
+                                            <div class="right">
+                                                <h4>2st_ 준비중입니다.</h4>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="pc">
+                                        <div class="responsive_3">
+                                            <div class="left"></div>
+                                            <div class="right">
+                                                <h4>3st_ 준비중입니다.</h4>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="p_button">
+                                <div class="prev">
+                                    <a href="#none"><i class="fa-solid fa-chevron-left"></i>&nbsp;이전페이지</a>
+                                </div>
+                                <div class="next">
+                                    <a href="#none">다음페이지&nbsp;<i class="fa-solid fa-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="mn">
+            <div class="contact_tit">
+                <h3>CONTACT</h3>
+            </div>
+            <div class="contact">
+                <div class="contact_front "></div>
+                <div class="contact_wrap">
+                    <div class="contact_txt">
+                        <table>
+                            <tr>
+                                <th>이 름</th>
+                                <td> : </td>
+                                <td>홍 길 동</td>
+                            </tr>
+                            <tr>
+                                <th>Phone</th>
+                                <td> : </td>
+                                <td>010 0000 0000</td>
+                            </tr>
+                            <tr>
+                                <th>E-mail</th>
+                                <td> : </td>
+                                <td>email@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <th>kakao</th>
+                                <td> : </td>
+                                <td>00000000
+                                </td>
+                            </tr>
+                            <tr style="border: 0;">
+                                <td style="line-height: 40px; font-weight: bold; font-size: 0.8em;">연락 주시면 바로 회신 드리겠습니다!</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
